@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 10vh;
+    margin-left: 4.5vw;
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-color: #1dd17a;
+}
+
+#box2{
+    height: 300px;
+    width: 300px;
+    background-color: #1d8cd1;
+    margin-left: 45vw;
+}
